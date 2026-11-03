@@ -1,0 +1,13 @@
+# local environment and IDE
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+
+# local databases: every user starts from the seeded thesis data
+data/*.json
+
+# release archives
+*.zip
